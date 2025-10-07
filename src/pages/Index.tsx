@@ -19,10 +19,10 @@ const Index = () => {
           {/* Logo */}
           <div className="mb-16 flex items-center gap-4 animate-fade-in-up">
             <div className="w-16 h-16 border-2 border-primary flex items-center justify-center bg-primary/10 backdrop-blur-sm animate-pulse-glow">
-              <span className="text-primary font-bold text-2xl text-glow-cyan">WR</span>
+              <span className="text-primary font-bold text-2xl">WR</span>
             </div>
             <div>
-              <h2 className="text-2xl font-bold tracking-wider text-glow-cyan">WAR ROOM</h2>
+              <h2 className="text-2xl font-bold tracking-wider text-primary">WAR ROOM</h2>
               <p className="text-xs tracking-widest text-muted-foreground font-mono">DA AUTOMAÇÃO</p>
             </div>
           </div>
@@ -31,7 +31,7 @@ const Index = () => {
             <div className="space-y-8 animate-fade-in-up animation-delay-200">
               <h1 className="text-5xl md:text-7xl font-bold leading-tight">
                 A PRIMEIRA{" "}
-                <span className="text-primary text-glow-cyan bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+                <span className="text-primary bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   SALA DE ANÁLISE DE AUTOMAÇÕES
                 </span>{" "}
                 DO BRASIL
@@ -92,9 +92,9 @@ const Index = () => {
         <div className="container mx-auto px-4 relative">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
-              <span className="text-primary text-glow-cyan">Por Que Você Fica Travado</span>
+              <span className="text-primary">Por Que Você Fica Travado</span>
               <br />
-              <span className="text-glow-magenta bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
                 Não É Falta de Conhecimento
               </span>
             </h2>
@@ -129,7 +129,7 @@ const Index = () => {
                 <p className="text-center text-xl italic text-muted-foreground mb-4">
                   É como um piloto voando sem torre de controle.
                 </p>
-                <p className="text-center font-bold text-2xl text-primary text-glow-cyan">
+                <p className="text-center font-bold text-2xl text-primary">
                   Seus concorrentes com mentores resolvem em minutos o que você leva dias.
                 </p>
               </Card>
