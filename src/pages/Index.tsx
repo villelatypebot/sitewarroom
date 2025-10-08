@@ -289,10 +289,16 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <Card className="p-8 bg-card/50 backdrop-blur-sm border-2 border-primary/30 hover:border-primary transition-all duration-300 group relative overflow-hidden hover:shadow-[0_0_30px_rgba(0,255,255,0.2)]">
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-transparent" />
-              <img src="https://via.placeholder.com/150" alt="Lucas Villela" className="w-24 h-24 rounded-full mx-auto mb-4" />
+              <img src="/Captura de Tela 2025-10-07 às 21.01.00.png" alt="Lucas Villela" className="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
               <h3 className="text-xl font-bold text-primary mb-4 text-center">Lucas Villela</h3>
               <p className="text-muted-foreground leading-relaxed text-center">
-                Especialista em automação com mais de 10 anos de experiência.
+                Reconhecido por grandes nomes do mercado como Alfredo Soares, Pedro Sobral, Lucas Renault, Giovanni Saraiva, Thales Laray, Matheus Palma.
+              </p>
+              <p className="text-muted-foreground leading-relaxed text-center mt-4">
+                Possui rápido raciocínio para resolver problemas e já criou o impossível para muitos na automação.
+              </p>
+              <p className="text-muted-foreground leading-relaxed text-center mt-4">
+                Além de viver de automação desde 2014, possui infoprodutos vendendo todos os dias sem gastar 1 real de tráfego, totalizando quase 5 mil vendas nos últimos 12 meses.
               </p>
             </Card>
 
