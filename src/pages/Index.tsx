@@ -304,10 +304,16 @@ const Index = () => {
 
             <Card className="p-8 bg-card/50 backdrop-blur-sm border-2 border-accent/30 hover:border-accent transition-all duration-300 group relative overflow-hidden hover:shadow-[0_0_30px_rgba(255,0,255,0.2)]">
               <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-accent to-transparent" />
-              <img src="https://via.placeholder.com/150" alt="João Marcos" className="w-24 h-24 rounded-full mx-auto mb-4" />
+              <img src="/Captura de Tela 2025-10-07 às 21.00.44.png" alt="João Marcos" className="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
               <h3 className="text-xl font-bold text-accent mb-4 text-center">João Marcos</h3>
               <p className="text-muted-foreground leading-relaxed text-center">
-                Expert em integrações e soluções complexas de automação.
+                Famoso nos bastidores, já atendeu grandes agências e grandes players já ouviram falar dele.
+              </p>
+              <p className="text-muted-foreground leading-relaxed text-center mt-4">
+                Aluno prodígio da comunidade que em 2 anos mudou totalmente a sua vida. Braço direito do Lucas Villela caminhando junto com ele com a comunidade e nos maiores contratos que o mercado já viu.
+              </p>
+              <p className="text-muted-foreground leading-relaxed text-center mt-4">
+                Ama o impossível e não poupa esforços para te ajudar a resolver algum problema. Umas das pessoas mais solícitas que o mercado digital já viu.
               </p>
             </Card>
           </div>
